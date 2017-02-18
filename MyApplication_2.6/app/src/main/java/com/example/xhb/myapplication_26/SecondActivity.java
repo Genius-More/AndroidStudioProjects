@@ -19,6 +19,11 @@ public class SecondActivity extends BasicActivity {
         intent.putExtra("param2",data2);
         context.startActivity(intent);
     }
+/*******************************************************************************************
+* 这段代码我暂时不知道意义在哪里，在前一个活动中调用另一个活动的方法，并且所谓的传递过去
+ * 一些数据，然后在新的活动中新建Intent，并将数据引入。可是我要怎样再从这个Intent中将数据
+ * 取出来呢？我用什么去响应它呢？
+* *****************************************************************************************/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
